@@ -1,0 +1,637 @@
+/**
+* CSS
+*
+* theme name: rastashaven
+* version: 0.1
+* Author: Mathenge Moses
+* Description: Poweres the rastas haven theme 
+**/
+
+
+html{
+	margin: 0;
+	padding: 0;
+	height: 100%; /* Doctype compliancy */ 
+}
+
+h1, h2, h3, h4, ul, li, div, span, label, a{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+body{
+	background-color: yellow;
+	height: 100%;
+	/* border:2px solid red; */ 
+}
+.main_container{
+	border:4px solid green;
+	position: relative;
+	 min-height: 100%;
+	width:1050px;
+	/*width: 70%;*/
+	margin:auto;
+}
+.header{ 
+	border:2px solid blue;
+	background-color:#FC6;
+}
+.body_section_container{
+	/* replaced by content-area */
+
+
+ 
+}
+
+
+.content-area{
+border: 2px solid blue;
+background-color: white;
+padding-bottom:60px;   /* Height of the footer */
+}
+.site-main{
+}
+
+
+
+
+.footer{
+	border:2px solid blue;
+	height: 60px;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	background-color:pink;
+}
+header{
+}
+.header{
+}
+.header_flex{
+	display:flex;
+	border:2px solid blue;
+}
+.header_box{
+	border:2px solid blue;
+}
+.logo{
+		border:2px solid blue;
+}
+.logo img{
+		width:100px;
+}
+.description{
+}
+
+
+/* NAV */
+nav.desktop_menu{
+}
+nav.handheld_menu{
+	display: none;
+}
+.handheld_menu:hover .menu-header-container {
+	background-color: pink;
+	visibility: visible;
+}
+.handheld_menu span{
+	font-weight: bold;
+	background-color: white;
+	padding: 5px;
+}
+.menu-header-container{
+	/* desktop menu */
+	visibility: visible;
+}
+ul.menu{
+	background-color: azure;
+	margin: 5px;
+
+}
+li.menu-item{
+	display: inline-block;
+	border-left: 2px solid black;
+	margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+}
+.banner img{
+	width:100%;
+	height:100px;
+}
+.ras_quote{
+		border:2px solid blue;
+}
+
+
+
+.searchform{
+	margin:3px;
+	padding:2px;
+}
+.notice{
+	background-color: red;
+}
+
+
+/* home.php */
+.ras_gallery{
+	border: 2px solid red;
+	display: flex;
+	margin: auto;
+	width:700px;	
+}
+.left_image{	
+}
+.left_image img{	
+	width:400px;
+}
+.right_image{
+	border:2px solid blue;	
+}
+.right_image img{
+	width:200px;	
+}
+.below_ras_gallery{
+	background-color: lavender;
+	display: block;
+	border: 2px solid blue;
+}
+.ras_columns_4{
+	display:flex;
+	max-width: 1040px;
+}
+.ras_col{
+	border:2px solid blue;
+}
+.ras_col ul{
+	
+}
+.ras_col ul li{
+	
+}
+.ras_col ul li img{
+	width:260px;
+}
+/*end home.php */
+
+.sidebar{
+	background-color: lavender;
+	width: 210px;
+	/*border:2px solid blue;*/
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.content{
+
+}
+
+.product{
+	/* used in woocommerce single.php */
+	width: 820px;
+    border: 2px solid blue;
+    float: right;
+}
+
+
+
+
+
+.woocommerce-breadcrumb{
+	border: 1px solid blue;
+}
+header.woocommerce-products-header{
+	border:2px solid blue;
+	background-color: orange;
+}
+.product-title{
+}
+.woocommerce-notices-wrapper{
+}
+.woocommerce-result-count{
+}
+
+form.woocommerce-ordering{
+	margin: 10px;
+	padding: 5px;
+}
+.orderby{
+
+}
+
+ul.products{
+	float: right;
+	background-color: grey;
+	border: 2px solid blue;
+	width: 820px;
+}
+
+/* columns-4  */
+.columns-4{
+}
+li.product{
+	border:2px solid red;
+	float: left;
+	display: inline;
+	width:198px;
+	height: 300px;
+	vertical-align: top;
+
+}
+a.woocommerce-LoopProduct-Link {
+}
+span.onsale{
+	display: block;
+	margin-bottom: 5px;
+}
+/* 
+img.attachment-woocommerce_thumbnail{
+	// see functions.php declare woocommerce support with some settings
+}
+*/
+h2.woocommerce-loop-product__title{
+	color: green;
+}
+
+/*end columns-4 */
+
+/* PRICE */
+span.price{
+	display: block;
+	margin: 5px;
+	padding: 5px;
+}
+del{
+}
+ins{
+}
+span.woocommerce-Price-amount{
+	margin: 5px;
+	padding: 5px;
+	background-color: pink;
+}
+span.woocommerce-Price-currencySymbol{
+	display: inline-block;
+}
+.product_type_simple.add_to_cart_button{
+	/* items not requiring selection */ 
+	background-color: pink;
+}
+.product_type_variable{
+	/* select options */ 
+	background-color: purple;
+}
+.single_add_to_cart_button{
+	/*  requiring selection */ 
+	background-color: orange;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+/* gallery  */
+
+.woocommerce-product-gallery{
+	
+} 
+a.woocommerce-product-gallery__trigger{
+
+}
+.flex-viewport{
+}
+.woocommerce-product-gallery__wrapper{
+
+}
+.woocommerce-product-gallery__image{
+
+}
+.flex-active-slide{
+}
+
+/*.flex-active-slide img{
+	// see functions.php declare woocommerce support with some settings
+}*/
+
+ol.flex-control-nav.flex-control-thumbs{
+	border:2px solid red;	
+} 
+ol.flex-control-nav li{
+	display: inline-block;
+	margin-right: 5px;
+	padding-right: 5px;
+}
+ol.flex-control-nav li img{	
+}
+.flex-active{
+	/* the active thumbnail */
+	border: 2px solid blue;
+}
+
+.summary.entry-summary{
+	border: 2px solid blue;
+}
+h1.product_title{
+	color: red;
+}
+p.price{
+	/* see PRICE */
+}
+.woocommerce-product-details__short-description{
+	background-color: white;
+
+}
+/* selecting  and VARIATIONS */
+form.variations_form{
+	border: 2px solid blue;
+}
+table.variations{
+	
+}
+tbody{
+}
+tr{
+}
+
+td.label{
+	background-color: azure;
+	
+}
+td.value{
+	background-color: yellow;
+}
+#size{
+	
+}
+#color{
+	
+}
+.reset_variations{
+	
+}
+.single_variation_wrap{
+	border: 2px solid red;
+}
+.woocommerce-variation{
+}
+.woocommerce-variation-description{
+}
+.woocommerce-variation-price{
+	background-color: green;
+}
+.woocommerce-variation-availability{
+}
+.stock{}
+.out-of-stock{
+	color: red;
+}
+.woocommerce-variation-add-to-cart{
+	background-color: yellow;
+}
+/* see single_add_to_cart_button */
+
+.product_meta{
+	margin: 10px;
+	background-color: azure;
+}
+.woocommerce-tabs{
+	border: 2px solid red;
+}
+.related{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* cart */
+.woocommerce-cart-form{
+
+}
+.product-thumbnail img{
+	width: 50px;
+	height: 50px;
+}
+
+
+
+
+
+
+
+
+
+nav.woocommerce-pagination{
+	border: 2px solid blue;
+	display: block;
+	clear: both;
+}
+ul.page-numbers{
+	background-color: pink;
+	
+}
+.page-numbers li{
+display: inline-block;
+}
+
+
+
+
+
+
+
+@media only screen and (max-device-width:360px){
+	/* Sumsang Galaxy s7 and up  anything below 360px */
+	/* Also LG3, LG4, LG5, LG Nexus 5, */ 
+		body{
+		background-color:pink;
+	}
+	div, ul, li, label, span, form, input, button, table, tr,  td,  submit, a, text{
+		font-size:50px;
+	}
+	.main{
+		border:4px solid green;
+	}
+	.logo img{
+		width:200px;
+	}
+/* NAV */
+nav.desktop_menu{
+	display: none;
+}
+nav.handheld_menu{
+	padding: 3px;
+	display: block;
+	position: absolute;
+}
+
+.handheld_menu:hover .menu-header-container {
+	background-color: pink;
+	visibility: visible;
+	overflow: visible;
+}
+.handheld_menu span{
+	font-weight: bold;
+	background-color: white;
+	padding: 5px;
+}
+.menu-header-container{
+	visibility: hidden;
+}
+ul.menu{
+	background-color: pink;
+}
+li.menu-item{
+	display: block;
+}
+
+	form.woocommerce-ordering{
+		margin: 10px;
+		padding: 5px;
+	}
+	.orderby{
+		font-size: 40px;
+	}
+	.content{
+		width: 100%;
+		display: block;
+	}
+/*	ul.products{
+
+	}*/
+	li.product{
+			display: block;
+			width:100%;
+			height: 600px;
+	}
+
+	span.onsale{
+	}
+	.attachment-woocommerce_thumbnail{
+		width:300px;
+		height: 300px;
+	}
+	h2.woocommerce-loop-product__title{
+
+	}
+	.product_type_simple.add_to_cart_button{
+		/* items not requiring selection */ 
+		background-color: pink;
+		margin: 10px;
+		
+	}
+	.product_type_variable{
+		/* select options */ 
+		background-color: white;
+	}
+	.single_add_to_cart_button{
+		/*  requiring selection */ 
+		background-color: orange;
+	}
+
+	/* selecting  and VARIATIONS */
+	form.variations_form{
+		border: 2px solid blue;
+	}
+	table.variations{
+	}
+	tbody{
+	}
+	tr{
+	}
+	td.label{
+		background-color: azure;
+	}
+
+	td.value{
+		background-color: yellow;
+
+	}
+	#size{
+		font-size: 50px;
+	}
+	#color{
+		font-size: 50px;
+	}
+	.reset_variations{
+		font-size: 50px;
+	}
+	.single_variation_wrap{
+		border: 2px solid red;
+	}
+
+	.single_add_to_cart_button{
+	/*  requiring selection */ 
+	font-size: 50px;
+
+}
+
+
+
+
+	.sidebar{
+		display: none;
+	}
+
+
+
+
+
+
+	
+	
+}
+
+
+
+
+/* Land scape */
+@media only screen and (device-width:640px){
+		/* Sumsang Galaxy s7 and up 640px */
+	/* Also LG3, LG4, LG5, LG Nexus 5, */ 
+	body{
+		background-color:orange;
+	}
+		div, ul, li, label, span, form, input, submit,a, text {
+		font-size:30px;
+	}
+}
+
+
+/*ul.product{
+	width: 820px;
+	background-color: pink;
+	float: right;
+}*/
