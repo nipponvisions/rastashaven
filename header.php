@@ -52,7 +52,5 @@
 					<?php  get_search_form(); ?>
 				</div><!--header -->
 		</header>
+		<div class="body_section_container"> 
 
-		<!-- <div class="body_section_container"> -->
-		<div id="primary" class="content-area">
-			<main id="main" class="site-main" role="main">

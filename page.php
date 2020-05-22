@@ -18,10 +18,7 @@ get_header();
 				//
 			} // end while
 		} // end if
-		?>
 
-
-<?php
  // get_sidebar(); 
  get_footer();
 

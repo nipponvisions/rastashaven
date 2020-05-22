@@ -9,9 +9,9 @@ get_header();
 ?> <div class="notice"> <?php global $template; echo basename($template); ?> </div> 
 
 
-<div class="content">
 
-<?php
+<div class="content-area">
+	<?php
 	if ( have_posts() ) {
 		while ( have_posts() ) {
 			the_post(); 
@@ -24,7 +24,10 @@ get_header();
 		} // end while
 	} // end if
 	?>
-</div>
+
+</div><!--content-area -->
+
+
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

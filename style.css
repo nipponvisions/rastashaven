@@ -36,24 +36,22 @@ body{
 	border:2px solid blue;
 	background-color:#FC6;
 }
+
 .body_section_container{
-	/* replaced by content-area */
-
-
- 
+	border: 2px solid blue;
+	background-color: white;
+	background-color: white;
+	padding-bottom:60px;   /* Height of the footer */
+	overflow: auto;  /* clear fix */
 }
 
-
 .content-area{
-border: 2px solid blue;
-background-color: white;
-padding-bottom:60px;   /* Height of the footer */
+	   width: 820px;
+	   float: right;
+	   overflow: auto;  /* clear fix */
 }
 .site-main{
 }
-
-
-
 
 .footer{
 	border:2px solid blue;
@@ -204,9 +202,7 @@ li.menu-item{
 
 .product{
 	/* used in woocommerce single.php */
-	width: 820px;
-    border: 2px solid blue;
-    float: right;
+
 }
 
 
@@ -236,10 +232,9 @@ form.woocommerce-ordering{
 }
 
 ul.products{
-	float: right;
-	background-color: grey;
 	border: 2px solid blue;
-	width: 820px;
+	background-color: grey;
+	overflow: auto;
 }
 
 /* columns-4  */
@@ -247,12 +242,12 @@ ul.products{
 }
 li.product{
 	border:2px solid red;
-	float: left;
-	display: inline;
-	width:198px;
+	display: inline-block;
+	width:196px;
 	height: 300px;
 	vertical-align: top;
-
+	text-align: center;
+	/*float: left;*/
 }
 a.woocommerce-LoopProduct-Link {
 }
@@ -313,6 +308,9 @@ span.woocommerce-Price-currencySymbol{
 /* gallery  */
 
 .woocommerce-product-gallery{
+	width: 450px;
+	border: 2px solid blue;
+display: inline-block;
 	
 } 
 a.woocommerce-product-gallery__trigger{
@@ -335,6 +333,7 @@ a.woocommerce-product-gallery__trigger{
 
 ol.flex-control-nav.flex-control-thumbs{
 	border:2px solid red;	
+	width: 400px;
 } 
 ol.flex-control-nav li{
 	display: inline-block;
@@ -350,6 +349,10 @@ ol.flex-control-nav li img{
 
 .summary.entry-summary{
 	border: 2px solid blue;
+	width: 350px;
+	background-color: pink;
+	float: right;
+
 }
 h1.product_title{
 	color: red;
@@ -417,6 +420,17 @@ td.value{
 .woocommerce-tabs{
 	border: 2px solid red;
 }
+ul.tabs{
+	margin: 5px;
+	display: block;
+	background-color: grey;
+}
+.tabs li{
+	display: inline-block;
+	padding-left: 10px;
+}
+
+
 .related{
 }
 
@@ -568,11 +582,14 @@ li.menu-item{
 	table.variations{
 	}
 	tbody{
+		height: 25px;
 	}
 	tr{
+
 	}
 	td.label{
-		background-color: azure;
+
+		
 	}
 
 	td.value{
@@ -630,8 +647,4 @@ li.menu-item{
 }
 
 
-/*ul.product{
-	width: 820px;
-	background-color: pink;
-	float: right;
-}*/
+
