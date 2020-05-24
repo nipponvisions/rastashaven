@@ -1,15 +1,20 @@
 <?php
-/*template name: sidebar
-*/
+/**
+* template name: sidebar
+* Description : Main sidebar required by the theme
+* use this sidebar for woocommerce left column 
+* https://developer.wordpress.org/themes/functionality/sidebars/
+**/
 ?>
+
 <div class="sidebar">
-	this is sidebar
 
-	<?php
-		if(is_active_sidebar('sidebar-1')){
+<p> The woocommerce sidebar </p>
 
-			 dynamic_sidebar();
-		}
-	?>
-	
-</div><!--sidebar -->
+
+
+
+        <?php dynamic_sidebar(); ?>
+
+
+</div>

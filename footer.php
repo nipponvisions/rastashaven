@@ -6,8 +6,10 @@
 		</div> <!--body_section_container -->
 	<div class="footer"> 
 			<h2> the footer    section </h2> 
+			<?php get_sidebar('footer'); ?>
 			</div><!--footer -->     
 		</div> <!-- main_container --> 
+		
 		<?php wp_footer(); ?>
 	</body>
 </html>

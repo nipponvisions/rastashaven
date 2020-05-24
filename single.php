@@ -24,11 +24,9 @@ get_header();
 		} // end while
 	} // end if
 	?>
+	</div>
 
-</div><!--content-area -->
-
-
-<?php get_sidebar(); ?>
+<?php get_sidebar('Posts'); ?>
 
 <?php get_footer(); ?>
 

@@ -21,13 +21,48 @@ add_action('after_setup_theme', 'rastashaven_register_nav_menus');
 
 // register sidebars
 function rastashaven_register_sidebars(){
-	 /* Register the 'primary' sidebar. */
-	register_sidebar(array(
-		'name'			=> __('Primary Sidebar', 'rastashaven'),
-		'id'  			=> 'sidebar-1',
-		'description' 	=> 'The Main sidebar'
-		)
+	 /* Register the 'main' sidebar. */
+	register_sidebar(
+		array(
+			'name'			=> __(' Sidebar Main', 'rastashaven'),
+			'id'  			=> 'sidebar-1',
+			'description' 	=> 'The woocommerce sidebar'
+			)
 	);
+	register_sidebar(
+		array(
+			'name'			=> __('Sidebar Posts ', 'rastashaven'),
+			'id'  			=> 'sidebar-2',
+			'description' 	=> ' the single posts  sidebar',
+			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</aside>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+			)
+	);
+	register_sidebar(
+		array(
+			'name'			=> __('Sidebar Header ', 'rastashaven'),
+			'id'  			=> 'sidebar-3',
+			'description' 	=> ' The Header Sidebar',
+			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</aside>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+			)
+	);
+	register_sidebar(
+		array(
+			'name'			=> __('Sidebar Footer ', 'rastashaven'),
+			'id'  			=> 'sidebar-4',
+			'description' 	=> ' The Header Sidebar',
+			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</aside>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+			)
+	);
+
 }
 add_action( 'widgets_init', 'rastashaven_register_sidebars' );
 
