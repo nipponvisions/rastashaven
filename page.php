@@ -12,7 +12,7 @@ get_header();
 			while ( have_posts() ) {
 				the_post(); 
 				//
-				the_title('<h2>','</h2>');
+				the_title('<h1 class="page-title">','</h1>');
 				// Post Content here
 				the_content();
 				//

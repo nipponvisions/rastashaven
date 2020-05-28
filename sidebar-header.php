@@ -7,12 +7,20 @@
 **/
 ?>
 
+<div id="sidebar-header" class="sidebar">
+    <?php if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
+        <?php dynamic_sidebar( 'header' ); ?>
+    <?php else : ?>
+       <h3>Quote of the Day </h3>
+       <h3>  Rasta Man Liveup !!! </h3>
+    <?php endif; ?>
+</div>
 
 
 
 
-<!--  The Header sidebar  -->
-        <?php dynamic_sidebar(' sidebar Header'); ?>
+
+
 
 
 

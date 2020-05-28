@@ -68,9 +68,4 @@ get_header();
 	</div>
 </div><!--ras_columns_4 -->
 
-
-
-
 <?php get_footer(); ?>
-
-		

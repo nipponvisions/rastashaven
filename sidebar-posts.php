@@ -9,7 +9,7 @@
 
 <p> The regular Posts </p>
 
-     <?php dynamic_sidebar('Sidebar Posts'); ?>
+     <?php dynamic_sidebar('Posts'); ?>
 
 
 

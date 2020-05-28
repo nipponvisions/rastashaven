@@ -3,7 +3,7 @@
 */
 ?>
 
-		</div> <!--body_section_container -->
+	</div> <!--body_section_container -->
 	<div class="footer"> 
 			<h2> the footer    section </h2> 
 			<?php get_sidebar('footer'); ?>

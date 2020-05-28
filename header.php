@@ -32,7 +32,7 @@
 						<div class="header_box">
 							<nav class="handheld_menu">
 								<span> Menu </span>
-								<?php // wp_nav_menu(); ?> 
+								<?php  wp_nav_menu(); ?> 
 							</nav>	
 						</div><!--header_box -->
 					</div><!-- header_flex -->	
@@ -45,10 +45,8 @@
 						</nav>	
 
 					<div class="ras_quote">
-						<!-- <h4> Quote of the day!</h4> -->
-						<!-- <p> Rasta Man Live Up </p> -->
-
-						<?php  get_sidebar('Header'); ?>
+					<!-- 	see quote of the day in the widgets header -->
+						<?php  get_sidebar('header'); ?>
 					</div><!--ras_quote-->
 
 					<div class="header_search">

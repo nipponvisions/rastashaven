@@ -24,14 +24,18 @@ function rastashaven_register_sidebars(){
 	 /* Register the 'main' sidebar. */
 	register_sidebar(
 		array(
-			'name'			=> __(' Sidebar Main', 'rastashaven'),
+			'name'			=> __('Main Widget Area', 'rastashaven'),
 			'id'  			=> 'sidebar-1',
-			'description' 	=> 'The woocommerce sidebar'
+			'description' 	=> 'The Sidebar Main',
+			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</aside>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
 			)
 	);
 	register_sidebar(
 		array(
-			'name'			=> __('Sidebar Posts ', 'rastashaven'),
+			'name'			=> __(' Posts ', 'rastashaven'),
 			'id'  			=> 'sidebar-2',
 			'description' 	=> ' the single posts  sidebar',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -42,7 +46,7 @@ function rastashaven_register_sidebars(){
 	);
 	register_sidebar(
 		array(
-			'name'			=> __('Sidebar Header ', 'rastashaven'),
+			'name'			=> __('Header ', 'rastashaven'),
 			'id'  			=> 'sidebar-3',
 			'description' 	=> ' The Header Sidebar',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -53,9 +57,9 @@ function rastashaven_register_sidebars(){
 	);
 	register_sidebar(
 		array(
-			'name'			=> __('Sidebar Footer ', 'rastashaven'),
+			'name'			=> __('Footer ', 'rastashaven'),
 			'id'  			=> 'sidebar-4',
-			'description' 	=> ' The Header Sidebar',
+			'description' 	=> ' The footer Sidebar',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</aside>',
 			'before_title'  => '<h3 class="widget-title">',
