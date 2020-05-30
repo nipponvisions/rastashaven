@@ -7,7 +7,7 @@
 **/
 ?>
 
-<div id="sidebar-header" class="sidebar">
+<div id="sidebar-header" class="sidebar-header">
     <?php if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
         <?php dynamic_sidebar( 'header' ); ?>
     <?php else : ?>

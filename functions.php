@@ -21,12 +21,13 @@ add_action('after_setup_theme', 'rastashaven_register_nav_menus');
 
 // register sidebars
 function rastashaven_register_sidebars(){
-	 /* Register the 'main' sidebar. */
 	register_sidebar(
+		/* main sidebar required by theme */
 		array(
-			'name'			=> __('Main Widget Area', 'rastashaven'),
+			'name'			=> __('Main Sidebar', 'rastashaven'),
 			'id'  			=> 'sidebar-1',
-			'description' 	=> 'The Sidebar Main',
+			'description' 	=> ' Themes required sidebar',
+			'class'			=>'main_sidebar',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</aside>',
 			'before_title'  => '<h3 class="widget-title">',
@@ -46,9 +47,10 @@ function rastashaven_register_sidebars(){
 	);
 	register_sidebar(
 		array(
-			'name'			=> __('Header ', 'rastashaven'),
+			'name'			=> __('Header', 'rastashaven'),
 			'id'  			=> 'sidebar-3',
 			'description' 	=> ' The Header Sidebar',
+			'class'			=> 'header_sidebar',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</aside>',
 			'before_title'  => '<h3 class="widget-title">',
@@ -57,9 +59,10 @@ function rastashaven_register_sidebars(){
 	);
 	register_sidebar(
 		array(
-			'name'			=> __('Footer ', 'rastashaven'),
+			'name'			=> __('Footer Sidebar', 'rastashaven'),
 			'id'  			=> 'sidebar-4',
 			'description' 	=> ' The footer Sidebar',
+			'class'			=> 'footer_sidebar',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</aside>',
 			'before_title'  => '<h3 class="widget-title">',
@@ -68,7 +71,7 @@ function rastashaven_register_sidebars(){
 	);
 
 }
-add_action( 'widgets_init', 'rastashaven_register_sidebars' );
+ add_action( 'widgets_init', 'rastashaven_register_sidebars' );
 
 
 // add featured uimage support

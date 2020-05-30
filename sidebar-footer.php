@@ -6,12 +6,12 @@
 * https://developer.wordpress.org/themes/functionality/sidebars/
 **/
 ?>
-<div id="sidebar-footer" class="sidebar">
+<div id="sidebar-footer" class="sidebar-header">
     <?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?>
-        <?php dynamic_sidebar( 'footer' ); ?>
+        <?php dynamic_sidebar( 'Footer Sidebar' ); ?>
     <?php else : ?>
-       <h3>This is footer sidebar </h3>
-       <h3>  Haloo world  </h3>
+       <h3>This is the footer sidebar </h3>
+       <h3>  put footer stuff here  </h3>
     <?php endif; ?>
 </div>
 

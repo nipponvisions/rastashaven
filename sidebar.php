@@ -2,13 +2,18 @@
 /**
 * template name: sidebar
 * Description : Main sidebar required by the theme
-* use this sidebar for woocommerce left column a
+* by default, used by woocommerce
+* other sidebars can be called here too
 * https://developer.wordpress.org/themes/functionality/sidebars/
 **/
 ?>
 
-<div class="sidebar-left">  
-	<div id="sidebar-main" class="sidebar">
-	        <?php dynamic_sidebar(); ?>
-	</div> 
-</div> 
+
+
+
+<div id="sidebar-main" class="sidebar-main">
+        <?php dynamic_sidebar(); ?>
+</div>
+
+
+
