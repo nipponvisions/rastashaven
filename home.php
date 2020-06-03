@@ -11,7 +11,7 @@ get_header();
 	<div class="left_image">
 		<ul> 
 			<li> <img src="<?php echo get_stylesheet_directory_uri()?>/assets/ras_hood.jpg" alt="ras_hood"> </li>
-			<li> <p> some text  </p> </li>
+			<li> <p> <b> some text</b> <br>  Lorem Ipsum is simply dummy text. </p> </li>
 		</ul>
 	</div>
 	<div class="right_image">
@@ -38,33 +38,36 @@ get_header();
 		</div>
 
 
-<div class="ras_columns_4">
-	<div class="ras_col">
-	<ul> 
-	<li> <img   src="<?php echo get_stylesheet_directory_uri()?>/assets/barret_hat.jpg" alt="barret_hat"> </li>
-	<li> <p> some text  </p> </li>
-	</ul> 
+<div class='ras_columns_4'>
+	<div class='ras_col' >
+		<ul> 
+			<li>
+			 	<img src="<?php echo get_stylesheet_directory_uri()?>/assets/barret_hat.jpg" alt="barret_hat"> </li>
+			<li>
+				<p> Some text <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+				</p>
+			</li>
+		</ul> 
 	</div>
 	<div class="ras_col">
-	<ul>
-	<li> <img  src="<?php echo get_stylesheet_directory_uri()?>/assets/ras_shoes.jpg" alt="ras_shoes"> </li>
-	<li> <p> Some text <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></li>
-	</ul> 
+		<ul>
+			<li> <img  src="<?php echo get_stylesheet_directory_uri()?>/assets/ras_shoes.jpg" alt="ras_shoes"> </li>
+			<li> <p> Some text <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></li>
+		</ul> 
 	</div>
 	<div class="ras_col">
-	<ul>
-	<li> <img   src="<?php echo get_stylesheet_directory_uri()?>/assets/reggae_scarf.jpg" alt="reggae_scarf"> </li>
-	<li> <p> Some text <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p></li>
-	</ul>
-
-
+		<ul>
+			<li> <img  src="<?php echo get_stylesheet_directory_uri()?>/assets/reggae_scarf.jpg" alt="reggae_scarf"> </li>
+			<li> <p> Some text <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p></li>
+		</ul>
 	</div>
 	<div class="ras_col">
-	<ul>
-	<li> <img  src="<?php echo get_stylesheet_directory_uri()?>/assets/ras_hood.jpg" alt="ras_hood"> </li>
-	<li> <p> Some text <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li>
-
-	</ul>
+		<ul>
+			<li> <img  src="<?php echo get_stylesheet_directory_uri()?>/assets/ras_hood.jpg" alt="ras_hood"> </li>
+			<li> <p> Some text <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li>
+		</ul>
 	</div>
 </div><!--ras_columns_4 -->
 

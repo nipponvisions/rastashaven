@@ -83,7 +83,7 @@ add_theme_support( 'post-thumbnails');
 // declare woocommerce support
 function rastashaven_add_woocommerce_support() {
 	add_theme_support( 'woocommerce', array(
-		     'thumbnail_image_width' => 150,
+		'thumbnail_image_width' => 150,
         'single_image_width'    => 300,
 		)
 	);
