@@ -418,7 +418,7 @@ a.woocommerce-product-gallery__trigger{
 
 }
 .woocommerce-product-gallery__image{
-
+	text-align: center;
 }
 .flex-active-slide{
 border: 2px solid beige;
