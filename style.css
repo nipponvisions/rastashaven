@@ -4,7 +4,7 @@
 * theme name: rastashaven
 * version: 0.1
 * Author: Mathenge Moses
-* Description: Poweres the rastas haven theme 
+* Description: Powers the Rastas Haven theme 
 **/
 
 
@@ -20,10 +20,6 @@ margin:0;
 padding:0;
 list-style: none;
 }
-
-
-
-
 
 /* layout  */
 body{
@@ -333,7 +329,7 @@ a.woocommerce-LoopProduct-Link {
 }
 span.onsale{
 display: block;
-margin: 10px;
+margin: 20px;
 background-color: beige;
 position: absolute;
 }
@@ -426,7 +422,7 @@ a.woocommerce-product-gallery__trigger{
 }
 .flex-active-slide{
 border: 2px solid beige;
-background-color: orange;
+margin-bottom: 5px;
 }
 
 .flex-active-slide img{
@@ -555,12 +551,60 @@ display: inline-block;
 }
 
 
-/* cart */
+
+/* CART pAGE */
 .woocommerce{
 }
 .woocommerce-cart-form{
-border: 2px solid blue;
 }
+table.shop_table{
+	background-color: #689f38;
+}
+.shop_table thead{
+	background-color: magenta;
+}
+.shop_table thead tr{}
+.shop_table thead tr th{
+	border: 1px solid white;
+	/*width: 100px;*/
+}
+.shop_table tbody{
+} 
+.shop_table tbody tr {
+/*	border: 2px solid black;*/
+	/*width: 100px;*/
+} 
+.shop_table td {
+/*	border: 2px solid black;*/
+}
+.product-remove{
+	background-color: yellow;
+}
+.product-thumbnail{
+	background-color: orange;
+	width: 80px;
+}
+.product-name{
+}
+.product-price{
+		background-color: grey;
+	width: 70px;
+}
+.product-quantity{
+	background-color: grey;
+
+}
+/*.input-text qty text"*/
+
+
+
+
+.product-subtotal{
+	width: 70px;
+}
+
+
+
 .cart-collaterals{
 background-color: azure;
 border: 2px solid blue;
@@ -572,20 +616,150 @@ border: 2px solid blue;
 }
 .woocommerce td.product-quantity {
     border: 1px solid blue;
-/*    width: 40px;*/
 }
 
 .woocommerce .quantity .qty {
-    /* width: 3.631em; */
-    text-align: center;
+	text-align: center;
 }
 
-/* My account  */
-
+/* MY ACCOUNT */
 .woocommerce-form.woocommerce-form-login.login{
+/* logging */
 border: 2px solid blue;
+/*width: 70%;*/
 width: fit-content;
 }
+
+nav.woocommerce-MyAccount-navigation{
+border: 2px solid blue;
+background-color: azure;
+padding: 3px;
+width: 30%;
+float: right;
+clear: both;
+}
+.woocommerce-MyAccount-navigation ul{
+}
+.woocommerce-MyAccount-navigation-link{
+}
+.woocommerce-MyAccount-content{
+	border:2px solid red;
+	width: 68%;
+	background-color: grey;
+}
+.woocommerce-notices-wrapper{
+}
+.woocommerce-orders-table{
+}
+/* view order */
+.woocommerce-order-details{
+}
+.woocommerce-table.woocommerce-table--order-details{
+}
+.woocommerce-customer-details{}
+
+.woocommerce .woocommerce-customer-details address{
+	margin: 0;
+	padding: 0;
+    }
+
+ /* Addresses */
+ .u-columns.woocommerce-Addresses{
+ 	
+ }
+ .u-columns.woocommerce-Addresses.col2-set{
+ }
+ .u-column1.col-1.woocommerce-Address{
+ 	background-color: purple;
+ }
+ .u-column2.col-2.woocommerce-Address{
+ 	background-color: pink;
+ }
+
+ /* Edit Addresses */
+
+.woocommerce-address-fields{
+	border: 2px solid green;
+}
+.woocommerce-address-fields__field-wrapper{
+	width: 90%;
+	border: 1px solid white;
+	padding-left: 25px;	
+}
+.woocommerce-address-fields .form-row.form-row-first {
+/*	width: 100%;
+	display: block;*/
+}
+.woocommerce-address-fields .form-row.form-row-last {
+/*	width: 100%;
+	display: block;*/
+}
+.woocommerce-address-fields__field-wrapper .form-row-wide{
+	width: 70%;
+
+}
+/* if  need to change the field sizes */
+/*#billing_country_field{
+border: 2px solid blue;
+width: 50%;
+}
+#billing_address_2_field{
+width: 30%;
+}
+#billing_city{
+width: 50%;
+}
+#billing_state_field{
+width: 40%;
+}
+#billing_postcode_field{
+width: 20%;
+}
+#billing_phone_field{
+width: 50%;
+}
+#billing_email_field{
+width: 50%;
+}
+ shipping 
+#shipping_country_field{
+border: 2px solid blue;
+width: 50%;
+}
+#shipping_address_2_field{
+width: 30%;
+}
+#shipping_city{
+width: 50%;
+}
+#shipping_state_field{
+width: 40%;
+}
+#shipping_postcode_field{
+width: 20%;
+}
+#shipping_phone_field{
+width: 50%;
+}
+#shipping_email_field{
+width: 50%;
+}
+*/
+
+/* checkout */
+.checkout.woocommerce-checkout{
+		border: 2px solid blue;
+}
+.checkout.woocommerce-checkout .col2-set{
+/*	background-color: pink;*/
+}
+ .woocommerce-checkout .col2-set .col-1{
+	background-color: pink;
+}
+ .woocommerce-checkout .col2-set .col-2{
+	background-color: purple;	
+}
+
 
 
 
@@ -594,8 +768,6 @@ width: fit-content;
 width: 50px;
 height: 50px;
 }
-
-
 
 nav.woocommerce-pagination{
 border: 2px solid blue;
@@ -610,15 +782,12 @@ background-color: pink;
 display: inline-block;
 }
 
-
-
 @media only screen and (max-device-width:360px){
 	/* Sumsang Galaxy s7 and up  anything below 360px */
 	/* Also LG3, LG4, LG5, LG Nexus 5, */ 
 	body{
 	width: 100%;
 	background-color:pink;
-
 	}
 	div, ul, li, label, span, form, input, button, table, tr,  td,  submit, a, text{
 	font-size:50px;
@@ -662,8 +831,8 @@ display: inline-block;
 	}
 
 	.input-text{
-	font-size: 60px;
-	width: 100px;	
+/*	font-size: 60px;*/
+/*	width: 100px;	*/
 	}
 
 	/**************/
@@ -824,37 +993,7 @@ display: inline-block;
 	}
 
 
-	table.shop_table .shop_table_responsive .cart .woocommerce-cart-form__contents{}
 
-		.woocommerce .quantity{
-			border: 1px solid green;
-		/*	width: 100px;
-			margin: 0;
-			padding: 0;*/
-
-		}
-
-	.woocommerce .quantity .qty{
-/*	width: 75px;
-	margin: 0;
-	padding: 0;
-	border: 1px solid red;
-
-	font-size: 50px;*/
-
-
-
-
-	}
-
-
-
-
-
-	/*.sidebar{
-	display: none;
-	}
-	*/
 
 	.sidebar-main{
 	display: none;
@@ -934,6 +1073,79 @@ display: inline-block;
 	height: 300px;
 	}
 	/*end home.php */
+
+	/*CART PAGE */
+	.woocommerce{
+		overflow: auto;
+	}
+	.input-text.qty.text{
+		width: 100px;
+	}
+	.coupon{
+		border: 2px solid blue;
+	}
+
+	#coupon_code.input-text{
+		display: block;
+		width: 360px;
+		padding: 3px;
+		margin: 10px;
+	}
+	.woocommerce .cart .button, .woocommerce .cart input.button {
+		background-color: #b6b6c3;
+		padding: 0;
+		display: block;
+	}
+
+
+	/* MY ACCOUNT */
+	.woocommerce-form.woocommerce-form-login.login{
+	/* logging */
+	border: 2px solid blue;
+	/*width: 70%;*/
+	width: fit-content;
+	}
+
+	nav.woocommerce-MyAccount-navigation{
+	border: 2px solid blue;
+	background-color: azure;
+	padding: 3px;
+	display: block;
+	width: 100%
+	}
+	.woocommerce-MyAccount-navigation ul{
+	}
+	.woocommerce-MyAccount-navigation-link{
+		display: inline-block;
+		padding-left: 2px;
+		border-left: 2px solid black;
+	}
+	.woocommerce-MyAccount-content{
+	border:2px solid red;
+	width: 100%;
+	background-color: grey;
+	}
+
+	/* checkout */
+	. .woocommerce-checkout {
+	display: block;
+	width: 100%;
+	}
+	.woocommerce-checkout .col2-set .col-1{
+	background-color: pink;
+	width: 100%;
+	display: block;
+	}
+	.woocommerce-checkout .col2-set .col-2{
+	background-color: purple;
+	width: 100%;
+	display: block;	
+	}
+	.woocommerce-checkout .col2-set .col-2 .input-text{
+	height: 200px;
+	}
+
+
 }
 
 
