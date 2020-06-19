@@ -74,8 +74,8 @@ function rastashaven_register_sidebars(){
  add_action( 'widgets_init', 'rastashaven_register_sidebars' );
 
 
-// add featured uimage support
-add_theme_support( 'post-thumbnails');
+// add featured image support
+ add_theme_support( 'post-thumbnails');
 
 
 
@@ -97,6 +97,6 @@ function rastashaven_enable_gallery(){
 	 add_theme_support( 'wc-product-gallery-lightbox' );
 	add_theme_support( 'wc-product-gallery-slider' );
 }
-add_action( 'after_setup_theme', 'rastashaven_enable_gallery' );
+ add_action( 'after_setup_theme', 'rastashaven_enable_gallery' );
 
 

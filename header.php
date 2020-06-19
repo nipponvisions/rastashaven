@@ -17,7 +17,7 @@
 					<div class="header_flex">
 						<div class="header_box">
 							<div class="logo">
-								<img  src="<?php echo get_stylesheet_directory_uri()?>/assets/logo_img.png" alt="rasflag"> 
+								<img  src="<?php echo get_stylesheet_directory_uri()?>/assets/logo_img.png" alt="logoimg"> 
 							</div><!--logo-->
 						</div><!--header_box-->
 

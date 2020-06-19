@@ -1,12 +1,11 @@
 <?php
 /** 
-* template name: page
+* Template name: page
+* Used by woocommerce to power myaccount, checkout and cart
 **/
-
 
 get_header(); 
 ?> <div class="notice"> <?php global $template; echo basename($template); ?> </div> 
-
 		<?php 
 		if ( have_posts() ) {
 			while ( have_posts() ) {
@@ -18,7 +17,5 @@ get_header();
 				//
 			} // end while
 		} // end if
-
  // get_sidebar(); 
  get_footer();
-
